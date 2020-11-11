@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:screenOrientation="portrait"
+    android:background="#B5F8BBD0">
+
+    <TextView
+        android:id="@+id/day1Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="30 Ağustos"
+        android:gravity="center"/>
+
+
+    <ToggleButton
+        android:id="@+id/day1ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_toEndOf="@+id/day1Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day2Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="23 Nisan"
+        android:gravity="center"
+        android:layout_marginTop="55dp"/>
+
+
+    <ToggleButton
+        android:id="@+id/day2ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day2Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toRightOf="@+id/day2Text"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:id="@+id/day3Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="29 Ekim" />
+
+    <ToggleButton
+        android:id="@+id/day3ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day3Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day3Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day4Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day1ToggleButton"
+        android:layout_marginLeft="40dp"
+        android:gravity="center"
+        android:text="19 Mayıs" />
+
+    <ToggleButton
+        android:id="@+id/day4ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day4Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day4Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day5Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day1ToggleButton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="Ramazan B." />
+
+    <ToggleButton
+        android:id="@+id/day5ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day5Text"
+        android:layout_marginLeft="0dp"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day5Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day6Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day1ToggleButton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="Kurban B." />
+
+    <ToggleButton
+        android:id="@+id/day6ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day6Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day6Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day7Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="165dp"
+        android:gravity="center"
+        android:text="Gün 7" />
+
+    <ToggleButton
+        android:id="@+id/day7ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_alignBottom="@+id/day7Text"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day7Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day8Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:text="Gün 8" />
+
+    <ToggleButton
+        android:id="@+id/day8ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_alignBottom="@+id/day8Text"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day8Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day9Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day1ToggleButton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="165dp"
+        android:gravity="center"
+        android:text="Gün 9" />
+
+    <ToggleButton
+        android:id="@+id/day9ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day9Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day9Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day10Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day1ToggleButton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:text="Gün 10" />
+
+    <ToggleButton
+        android:id="@+id/day10ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/day10Text"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day10Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/day11Text"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="275dp"
+        android:gravity="center"
+        android:text="Gün 11" />
+
+    <ToggleButton
+        android:id="@+id/day11ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_alignBottom="@+id/day11Text"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/day11Text"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/monthlyText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/day1ToggleButton"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="275dp"
+        android:gravity="center"
+        android:text="Aylık Mesaj" />
+
+    <ToggleButton
+        android:id="@+id/monthlyToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/monthlyText"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/monthlyText"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/weeklyText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="330dp"
+        android:gravity="center"
+        android:text="Haftalık Mesaj" />
+
+    <ToggleButton
+        android:id="@+id/weeklyToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_alignBottom="@+id/weeklyText"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-0dp"
+        android:layout_toRightOf="@+id/weeklyText"
+        android:textSize="10sp" />
+
+</RelativeLayout>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemplatesActivity"
+    android:screenOrientation="portrait"
+    android:background="#B5F8BBD0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginBottom="100dp"
+        android:padding="10dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nicknameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÜNVAN"
+                android:textColor="#9370db"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nicknameTemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:hint="Ünvanınız mesajınızın altına yerleştirilecektir."/>
+
+            <TextView
+                android:id="@+id/birthdayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOĞUM GÜNÜ"
+                android:textColor="#9370db"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/birthdayTemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:layout_marginBottom="10dp"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/monthlyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AYLIK MESAJ "
+                android:textColor="#9370db"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/monthlyTemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=""
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."/>
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/monthlyDateEditText"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp" />
+
+
+            <TextView
+                android:id="@+id/weeklyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HAFTALIK MESAJ "
+                android:textColor="#9370db"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/weeklyTemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=""
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."/>
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/weeklyDateEditText"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp" />
+
+
+            <EditText
+                android:id="@+id/day1NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 1 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day1TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day1DateEditText"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"/>
+
+
+
+            <EditText
+                android:id="@+id/day2NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 2 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day2TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day2DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/day3NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 3 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day3TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day3DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:id="@+id/day4NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 4 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day4TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day4DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:id="@+id/day5NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 5 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day5TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day5DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:id="@+id/day6NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 6 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day6TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day6DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/day7NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 7 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day7TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day7DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:id="@+id/day8NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 8 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day8TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day8DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+
+
+            <EditText
+                android:id="@+id/day9NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 9 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day9TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day9DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+
+
+            <EditText
+                android:id="@+id/day10NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 10 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day10TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day10DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+
+
+            <EditText
+                android:id="@+id/day11NameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Day 11 Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#9370db"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/day11TemplateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Mesaj Taslağı. xxx yazılan yere kişi ismi gelecektir."
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text=" "/>
+
+            <com.santalu.maskara.widget.MaskEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/day11DateEditText"
+                android:textSize="14sp"
+                android:hint="Tarih Giriniz"
+                android:inputType="number"
+                app:mask="##.##.####"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_navigation" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:onClick="updateTemplate"
+        android:text="UPDATE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

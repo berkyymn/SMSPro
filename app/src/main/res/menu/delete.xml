@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/delete_contacts" android:title="Sil" android:icon="@drawable/ic_delete" />
+    <item android:id="@+id/update_contacts" android:title="Güncele" android:icon="@drawable/ic_toggle"/>
+    <item android:id="@+id/selectAll" android:title="Hepsini Seç" android:icon="@drawable/ic_select_alll"/>
+
+</menu>

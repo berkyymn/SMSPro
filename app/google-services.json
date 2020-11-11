@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312739316268",
+    "firebase_url": "https://contacts-3664d.firebaseio.com",
+    "project_id": "contacts-3664d",
+    "storage_bucket": "contacts-3664d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312739316268:android:70dc1810c585cd13720789",
+        "android_client_info": {
+          "package_name": "com.berkay.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312739316268-gj2f6hvtv4or053mhinrke0pr0827get.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtaFbGlJqimZA3sx5nhKfKGa6fJ0aXVyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312739316268-gj2f6hvtv4or053mhinrke0pr0827get.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

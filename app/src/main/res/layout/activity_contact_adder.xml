@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactAdder"
+    android:screenOrientation="portrait"
+    android:background="#B5F8BBD0">
+
+
+    <ToggleButton
+        android:id="@+id/day11ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day11NameText" />
+
+    <ToggleButton
+        android:id="@+id/monthlyToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day11NameText2" />
+
+    <ToggleButton
+        android:id="@+id/day10ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day10NameText" />
+
+    <ToggleButton
+        android:id="@+id/day9ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/day9NameText"
+        app:layout_constraintTop_toTopOf="@+id/day9NameText" />
+
+    <ToggleButton
+        android:id="@+id/weeklyToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/weeklyText"
+        app:layout_constraintTop_toTopOf="@+id/weeklyText" />
+
+    <TextView
+        android:id="@+id/day11NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/day11ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/day10NameText" />
+
+    <TextView
+        android:id="@+id/day11NameText2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Aylık Mesaj"
+        app:layout_constraintEnd_toStartOf="@+id/monthlyToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/day11NameText" />
+
+    <TextView
+        android:id="@+id/day9NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day8NameText" />
+
+    <TextView
+        android:id="@+id/weeklyText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Haftalık Mesaj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day9NameText" />
+
+    <TextView
+        android:id="@+id/day10NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/day10ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/day7NameText" />
+
+    <ToggleButton
+        android:id="@+id/day6ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day6NameText" />
+
+    <ToggleButton
+        android:id="@+id/day7ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day7NameText" />
+
+    <TextView
+        android:id="@+id/day5NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Ramazan B."
+        app:layout_constraintEnd_toStartOf="@+id/day5ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/day4NameText" />
+
+    <TextView
+        android:id="@+id/day6NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Kurban B."
+        app:layout_constraintEnd_toStartOf="@+id/day6ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/day5NameText" />
+
+    <TextView
+        android:id="@+id/day7NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="day7"
+        app:layout_constraintEnd_toStartOf="@+id/day7ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/day6NameText" />
+
+    <ToggleButton
+        android:id="@+id/day5ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/day5NameText" />
+
+    <ToggleButton
+        android:id="@+id/day4ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraText" />
+
+    <ToggleButton
+        android:id="@+id/day3ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/day3NameText"
+        app:layout_constraintTop_toTopOf="@+id/day3NameText" />
+
+    <TextView
+        android:id="@+id/day3NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="29 Ekim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2NameText" />
+
+    <TextView
+        android:id="@+id/day4NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="19 Mayıs"
+        app:layout_constraintEnd_toStartOf="@+id/day4ToggleButton"
+        app:layout_constraintTop_toBottomOf="@+id/extraText" />
+
+    <ToggleButton
+        android:id="@+id/day1ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/day1NameText"
+        app:layout_constraintTop_toBottomOf="@+id/birthdayToggleButton" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.santalu.maskara.widget.MaskEditText
+        android:id="@+id/numberText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Numara Giriniz"
+        android:inputType="number"
+        app:mask="+90##########"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8899434918779848/6040407000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+    <com.santalu.maskara.widget.MaskEditText
+        android:id="@+id/birthdayText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:ems="10"
+        android:hint="Doğum Günü Tarihi Giriniz GG.AA.YYYY"
+        android:inputType="number"
+        app:mask="##.##.####"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberText" />
+
+    <EditText
+        android:id="@+id/extraText"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Extra"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birthdayText" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="@color/colorPrimary"
+        android:onClick="deleteRecord"
+        android:text="SİL"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="saveRecord"
+        android:text="KAYDET"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toStartOf="@+id/updateButton"
+        app:layout_constraintStart_toEndOf="@+id/deleteButton" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorPrimary"
+        android:onClick="updateRecord"
+        android:text="GÜNCELLE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/birthdayTextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Birthday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/extraText" />
+
+    <ToggleButton
+        android:id="@+id/birthdayToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/birthdayTextView"
+        app:layout_constraintTop_toBottomOf="@+id/extraText" />
+
+    <TextView
+        android:id="@+id/day1NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="30 Ağustos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birthdayTextView" />
+
+    <TextView
+        android:id="@+id/day2NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="23 Nisan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day1NameText" />
+
+    <ToggleButton
+        android:id="@+id/day2ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/day2NameText"
+        app:layout_constraintTop_toBottomOf="@+id/day1ToggleButton" />
+
+    <TextView
+        android:id="@+id/day8NameText"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day3NameText" />
+
+    <ToggleButton
+        android:id="@+id/day8ToggleButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/day8NameText"
+        app:layout_constraintTop_toTopOf="@+id/day8NameText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
