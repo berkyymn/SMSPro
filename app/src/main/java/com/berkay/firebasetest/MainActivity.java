@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-8899434918779848/4265356564");
+        mInterstitialAd.setAdUnitId("******");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
